@@ -2,21 +2,21 @@ function SideBar() {
     
     return(
         // <!-- Main Sidebar Starts -->
-        <div class="main_item main_left main_side-bar">
-          <a href="#" class="side-bar_item side-bar_active">
-            <img src="files.png" class="side-bar_item-icon" />
+        <div className="main_item main_left main_side-bar">
+          <a href="#" className="side-bar_item side-bar_active">
+            <img src="files.png" className="side-bar_item-icon" />
           </a>
-          <a href="#" class="side-bar_item">
-            <img src="sticky-note.png" class="side-bar_item-icon" />
+          <a href="#" className="side-bar_item">
+            <img src="sticky-note.png" className="side-bar_item-icon" />
           </a>
-          <a href="#" class="side-bar_item">
-            <img src="envelope.png" class="side-bar_item-icon" />
+          <a href="#" className="side-bar_item">
+            <img src="envelope.png" className="side-bar_item-icon" />
           </a>
-          <a href="#" class="side-bar_item">
-            <img src="pie-chart.png" class="side-bar_item-icon" />
+          <a href="#" className="side-bar_item">
+            <img src="pie-chart.png" className="side-bar_item-icon" />
           </a>
-          <a href="#" class="side-bar_item side-bar_exit">
-            <img src="exit.png" class="side-bar_item-icon" />
+          <a href="#" className="side-bar_item side-bar_exit">
+            <img src="exit.png" className="side-bar_item-icon" />
           </a>
         </div>
         // <!-- Main Sidebar Ends -->
