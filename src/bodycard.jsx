@@ -32,7 +32,7 @@ const BodyCard = ({user}) =>{
                 <div className="main_profileInfo">
                   <div className="main_profile-name"> {user.username} </div>
                   <div className="main_profile-designation"> {user.name} </div>
-                  <div className="main_profile-location"> San Jose, California </div>
+                  <div className="main_profile-location"> {user.location} </div>
                 </div>
               </div>
 

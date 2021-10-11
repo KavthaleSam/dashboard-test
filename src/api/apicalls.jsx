@@ -46,7 +46,7 @@ class User {
     };
     getRepos = async (username) => {
         const octokit = new Octokit({
-            auth: "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",
+            // auth: "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",
         });
         const response = await octokit.request(
             "GET /users/" + username + "/repos",
